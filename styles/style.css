@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #239698;
+}
+
+body {
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.respo-width {
+  max-width: 1233px;
+  margin: 0 auto;
+}
+
+.top-header {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.top-header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar{
+    height: 49px;
+    padding: 24px 0;
+}
