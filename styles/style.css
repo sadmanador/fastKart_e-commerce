@@ -27,12 +27,21 @@ body {
   background-color: var(--primary-color);
 }
 
+.top-header-middle-text{
+    font-weight: 700;
+}
+
 .top-header-inner {
   display: flex;
   justify-content: space-between;
 }
 
 .search-bar{
-    height: 49px;
     padding: 24px 0;
+}
+
+
+.search-bar-inner{
+    height: 49px;
+    background-color: bisque;
 }
