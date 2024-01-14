@@ -38,10 +38,25 @@ body {
 
 .search-bar{
     padding: 24px 0;
+    position: sticky;
+    top: 0;
 }
 
 
 .search-bar-inner{
     height: 49px;
     background-color: bisque;
+}
+
+.logo{
+    width: 150px;
+}
+.search-bar-middle-btn{
+  display: flex;
+  
+}
+
+.search-bar-inner{
+    display: flex;
+    justify-content: space-between;
 }
