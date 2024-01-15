@@ -250,3 +250,11 @@ body {
   border-radius: 8px;
   padding: 0 20px;
 }
+
+.organic-marketplace{
+  margin: 37px 0;
+}
+
+.organic-marketplace img{
+  width: 100%;
+}
