@@ -293,10 +293,29 @@ body {
 
 .food-chart{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.chart-item{
+  display: flex;
+}
+
+.chart-title{
+  font-size: calc(15.2px + .25vw);
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #239698;
 }
 
 .chart-details-link{
   text-decoration: none;
+  font-size: 18px;
   color: #4A5568;
+}
+
+.chart-img{
+  width: 80px;
+  height: 80px;
 }
