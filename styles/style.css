@@ -11,6 +11,7 @@
 body {
   margin: 0;
   font-size: 1.3rem;
+  background-image: url('../assets/images/bg-body.RfX9Re8g.png');
   font-family: "Work Sans", sans-serif;
 }
 
@@ -387,4 +388,11 @@ border-radius: 8px;
   color: #FFBC5D;
   font-weight: 600;
   font-size: 18px;
+}
+
+.lower-footer{
+  display: flex;
+  border-top: 1px dashed #4A5568;
+  padding: 20px 0;
+  justify-content: space-between;
 }
