@@ -53,6 +53,7 @@ body {
   padding: 24px 0;
   position: sticky;
   background-color: white;
+  z-index: 1;
   top: 0;
 }
 
@@ -293,4 +294,9 @@ body {
 .food-chart{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+}
+
+.chart-details-link{
+  text-decoration: none;
+  color: #4A5568;
 }
