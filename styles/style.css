@@ -325,6 +325,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 5px;
+  margin: 38px 0;
 }
 
 .blog-card{
@@ -337,6 +338,53 @@ border-radius: 8px;
 }
 
 .blog-text{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.newsletter{
+  height: 227px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  padding-top: 50px;
+  background-image: url('../assets/images/newsletter.jpg');
+}
+
+.newsletter-inner{
+  margin-left: 250px;
+}
+
+.input-form{
+  position: relative;
+}
+
+
+.newsletter-btn{
+  padding: 8px 18px;
+  position: absolute;
+  top: 7px;
+  left: 325px;
+  border: none;
+  background-color: #FF5151;
+  color: white;
+  border-radius: 8px;
+}
+
+.newsletter-title{
+  color: white;
+}
+
+.newsletter-input{
+  width: 450px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+.newsletter-text{
+  color: #FFBC5D;
   font-weight: 600;
   font-size: 18px;
 }
