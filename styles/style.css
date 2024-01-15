@@ -209,3 +209,9 @@ body {
 .old-price{
   text-decoration: line-through;
 }
+
+.search-btn{
+  background-color: #ffa53b;
+  border: none;
+  border-radius: 8px;
+}
