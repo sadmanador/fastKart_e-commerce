@@ -9,6 +9,8 @@
 6. If SCSS were used, the css code and html code would have been look way to clean.
 7. Although, the project was done in HTML only situation. I am also well skilled in next.js and react.js. the same project would have taken way less time if made with react.js with few api's.
 
+8. However, responsiveness was not done due time shortage.
+
 
 ## live link below
 <https://wondrous-puppy-69e8d3.netlify.app/>
