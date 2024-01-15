@@ -258,3 +258,34 @@ body {
 .organic-marketplace img{
   width: 100%;
 }
+
+.carousel-2-container{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 38px 0;
+}
+
+.carousel-2-item{
+  position: relative;
+}
+
+.carousel-2-title{
+  padding: 20px 25px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .88);
+  position: absolute;
+  bottom: -50px;
+  border-radius: 12px;
+  right: 40px;
+}
+
+.carousel-2-heading{
+  font-size: 24px;
+}
+
+.carousel-2-text{
+  color: #4A5568;
+  font-weight: 600;
+  font-size: 18px;
+}
