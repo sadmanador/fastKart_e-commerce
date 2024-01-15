@@ -289,3 +289,8 @@ body {
   font-weight: 600;
   font-size: 18px;
 }
+
+.food-chart{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
