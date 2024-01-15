@@ -15,13 +15,13 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-.nav-link{
-  transition: transform .5s, text-decoration .5s;
+.nav-link {
+  transition: transform 0.5s, text-decoration 0.5s;
   font-weight: 600;
   font-size: 16px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #239698;
   cursor: pointer;
   transform: translate(7px, 0);
@@ -137,6 +137,7 @@ body {
   font-size: 17px;
   border: none;
   color: var(--primary-color);
+  transition: background-color .5s, color 1s;
 }
 
 .banner {
@@ -205,7 +206,6 @@ body {
 
 .product-img {
   width: 181px;
-  height: 128px;
 }
 
 .rating-icon,
@@ -349,21 +349,19 @@ body {
   width: 385px;
 }
 
-.blog-img{
+.blog-img {
   border-radius: 8px;
   width: 100%;
 }
 
-.blog-img{
-  transition: transform .4s;
+.blog-img {
+  transition: transform 0.4s;
 }
 
-.blog-card:hover .blog-img{
+.blog-card:hover .blog-img {
   transform: scale(1.05) rotate(2deg);
   cursor: pointer;
 }
-
-
 
 .blog-text {
   font-weight: 600;
@@ -455,13 +453,13 @@ body {
   margin-top: 38px;
 }
 
-.footer-link{
-  transition: transform .5s, text-decoration .5s;
+.footer-link {
+  transition: transform 0.5s, text-decoration 0.5s;
   font-weight: 600;
   font-size: 16px;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: #239698;
   cursor: pointer;
   transform: translate(7px, 0);
@@ -471,27 +469,27 @@ body {
   text-decoration-thickness: 3px;
 }
 
-.company-short-about{
+.company-short-about {
   margin-top: 20px;
 }
 
-.main-menu-icon{
+.main-menu-icon {
   width: 22px;
   margin-right: 8px;
   margin-bottom: 10px;
 }
 
-.main-menu-grp li:hover span{
+.main-menu-grp li:hover span {
   color: #239698;
   font-weight: 600;
   cursor: pointer;
 }
 
-.main-menu-hover{
+.main-menu-hover {
   position: relative;
 }
 
-.main-menu-container{
+.main-menu-container {
   background-color: white;
   z-index: 1;
   display: none;
@@ -499,14 +497,17 @@ body {
   border-radius: 12px;
 }
 
-.main-menu-hover:hover .main-menu-container{
+.main-menu-hover:hover .main-menu-container {
   display: block;
 }
 
-.main-menu-grp{
+.main-menu-grp {
   width: 250px;
   padding: 12px;
   list-style-type: none;
-  
 }
 
+.menu-bar-deal:hover{
+  background-color: #12b1b3;
+  color: white;
+}
