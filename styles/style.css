@@ -396,3 +396,35 @@ border-radius: 8px;
   padding: 20px 0;
   justify-content: space-between;
 }
+
+.upper-footer{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  padding-bottom: 50px;
+  margin-top: 38px;
+}
+
+.contact-us{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-number{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.app-text{
+  margin-top: 30px 0;
+}
+
+.app-icon{
+  width: calc(109px + 1.5625vw);
+}
+
+.footer{
+  background-color: #f8f8f8;
+  padding-top: 10px;
+  margin-top: 38px;
+}
