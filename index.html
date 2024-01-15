@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <link rel="stylesheet" href="styles/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -15,13 +15,13 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <div class="top-header">
         <div class="top-header-inner respo-width">
           <div>Become a Seller</div>
           <div>
-            <span class="top-header-middle-text">Welcome to Fastkart!</span> Wrap new offers/gift every single
-            day on Weekends. New Coupon Code
+            <span class="top-header-middle-text">Welcome to Fastkart!</span>
+            Wrap new offers/gift every single day on Weekends. New Coupon Code
           </div>
           <div>
             <span>English</span>
@@ -29,33 +29,199 @@
           </div>
         </div>
       </div>
-      <div class="search-bar respo-width">
+      
+    </header>
+    <div class="search-bar respo-width">
         <div class="search-bar-inner">
-            <div>
-                <img class="logo" src="assets/images/logo.png" alt="logo">
-            </div>
-            <div class="search-bar-middle-btn">
-                <div class="dropdown">
-                    <a class="btn dropdown-toggle border border-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      All Categories
-                    </a>
-                  
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </div>
+          <div>
+            <img class="logo" src="assets/images/logo.png" alt="logo" />
+          </div>
+          <div class="search-bar-middle-btn">
+            <div class="dropdown">
+              <a
+                class="btn dropdown-toggle border border-black"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                All Categories
+              </a>
 
-                  <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search Here..." aria-label="" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                  </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </div>
-            <div></div>
+
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Here..."
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+              >
+                Button
+              </button>
+            </div>
+          </div>
+          <div class="search-bar-icons-grp">
+            <div>
+              <img
+                class="search-bar-icons icon-1"
+                src="assets/images/icons/love-svgrepo-com.svg"
+                alt=""
+              />
+            </div>
+            <div class="icon-2-holder">
+              <img
+                class="search-bar-icons icon-2"
+                src="assets/images/icons/cart-large-minimalistic-svgrepo-com.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="search-bar-icons icon-3"
+                src="assets/images/icons/profile-svgrepo-com.svg"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+      <div class="menu-bar respo-width">
+        <div>
+          <button class="main-menu">
+            <img
+              class="search-bar-icons"
+              src="assets/images/icons/menu-2-svgrepo-com.svg"
+              alt=""
+            />
+            All Categories
+          </button>
+        </div>
+        <div class="menu-bar-middle">
+          <div>Home</div>
+          <div>Collection</div>
+          <div>Product</div>
+          <div>Mega menu</div>
+          <div>Blog</div>
+          <div>Pages</div>
+          <div>Seller</div>
+        </div>
+        <div class="menu-bar-deal">
+          <img
+            class="search-bar-icons"
+            src="assets/images/icons/thunder-2-svgrepo-com.svg"
+            alt=""
+          />
+          Todays Deal
+        </div>
+      </div>
+
+    <main class="respo-width">
+      <section class="banner">
+        <div>
+          <img src="assets/images/osaka_03.jpg" width="919px" alt="" />
+        </div>
+        <div>
+          <img src="assets/images/osaka_04.jpg" width="290px" alt="" />
+        </div>
+      </section>
+
+      <section class="category-section">
+        <div class="category-title">
+          <h3>Browse By Categories</h3>
+          <p>Top Categories Of The Week</p>
+        </div>
+        <div class="category-menu">
+          <div class="category-menu-icon category-icon-1">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/vegetable.svg"
+              alt=""
+            />
+            <a href="#" class="category-link"> Meat & Seafood </a>
+          </div>
+          <div class="category-menu-icon category-icon-2">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/meats.svg"
+              alt=""
+            />
+            <a href="#" class="category-link"> Milk & Dairy </a>
+          </div>
+          <div class="category-menu-icon category-icon-2">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/milk.svg"
+              alt=""
+            />
+            <a href="#" class="category-link"> Wines & Soft drink </a>
+          </div>
+          <div class="category-menu-icon category-icon-3">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/drink.svg"
+              alt=""
+            />
+            <a href="#" class="category-link"> Grocery </a>
+          </div>
+          <div class="category-menu-icon category-icon-4">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/grocery.svg"
+              alt=""
+            />
+            <a href="#" class="category-link"> Biscuits </a>
+          </div>
+          <div class="category-menu-icon category-icon-5">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/biscuit.svg"
+              alt=""
+            />
+            <a href="#" class="category-link">
+               Frozen Foods
+            </a>
+          </div>
+          <div class="category-menu-icon category-icon-6">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/frozen.svg"
+              alt=""
+            />
+            <a href="#" class="category-link">
+Daily Breakfast
+            </a>
+          </div>
+          <div class="category-menu-icon category-icon-7">
+            <img
+              class="category-icon-img"
+              src="assets/images/logo/breakfast.svg"
+              alt=""
+            />
+            <a href="#" class="category-link">
+               Beverage
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cashback">
+        <img width="1233px" src="assets/images/osaka_02.jpg" alt="">
+      </section>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

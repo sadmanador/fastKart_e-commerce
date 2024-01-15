@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
 }
 
+.menu-bar{
+  padding-bottom: 24px;
+}
+
 .top-header {
   font-size: 14px;
   padding-bottom: 10px;
@@ -27,36 +31,136 @@ body {
   background-color: var(--primary-color);
 }
 
-.top-header-middle-text{
-    font-weight: 700;
+.top-header-middle-text {
+  font-weight: 700;
 }
 
 .top-header-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.search-bar{
-    padding: 24px 0;
-    position: sticky;
-    top: 0;
+.search-bar {
+  padding: 24px 0;
+  position: sticky;
+  background-color: white;
+  top: 0;
 }
 
-
-.search-bar-inner{
-    height: 49px;
-    background-color: bisque;
+.search-bar-inner {
+  height: 49px;
 }
 
-.logo{
-    width: 150px;
+.logo {
+  width: 150px;
 }
-.search-bar-middle-btn{
+.search-bar-middle-btn {
   display: flex;
-  
+  gap: 30px;
 }
 
-.search-bar-inner{
-    display: flex;
-    justify-content: space-between;
+.search-bar-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar-icons-grp {
+  display: flex;
+}
+
+.search-bar-icons {
+  width: 30px;
+}
+
+.icon-2 {
+  margin: 0 10px;
+
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.icon-2-holder {
+  margin: 0 10px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  background-color: var(--primary-color);
+  padding: 13px 26px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+}
+
+.menu-bar-middle {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-bar-deal {
+  background-color: #eaf4f4;
+  padding: 13px 26px;
+  border-radius: 6px;
+  border: none;
+  color: var(--primary-color);
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+  height: 500px;
+}
+
+.category-section {
+  margin-top: 54px;
+}
+
+.category-icon-img {
+  width: 40px;
+}
+.category-menu-icon {
+  padding: 24px;
+  height: 145px;
+  width: 145px;
+  display: flex;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  transition: background-color .7s;
+}
+
+.category-menu-icon:hover {
+  background-image: url("/assets/images/1.png");
+  background-color: #239698;
+  color: white;
+}
+
+.category-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+.category-menu-icon:hover .category-link {
+
+  color: white;
+}
+
+.cashback{
+  margin: 44px 0;
 }
