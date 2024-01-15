@@ -41,6 +41,14 @@ body {
   align-items: center;
 }
 
+.top-header-drop-grp{
+  display: flex;
+}
+
+.eng-fran{
+  width: 15px;
+}
+
 .search-bar {
   padding: 24px 0;
   position: sticky;
@@ -50,6 +58,11 @@ body {
 
 .search-bar-inner {
   height: 49px;
+}
+
+.search-btn-icon{
+  width: 20px;
+
 }
 
 .logo {
@@ -75,9 +88,6 @@ body {
 
 .icon-2 {
   margin: 0 10px;
-
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
 }
 
 .icon-2-holder {
@@ -214,4 +224,5 @@ body {
   background-color: #ffa53b;
   border: none;
   border-radius: 8px;
+  padding: 0 20px;
 }
